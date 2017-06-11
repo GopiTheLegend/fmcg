@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frm_product"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/cardview_light_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.legend.gopiking.fmcg.Frm.Master.FrmUom"
+    tools:showIn="@layout/activity_frm_uom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dip"
+            android:elevation="25dip"
+            android:background="@android:color/transparent"
+            app:cardCornerRadius="10dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtUomSymbol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/Uom_sysmbol"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="8dip"
+                    android:layout_marginBottom="8dip">
+                    <android.support.v7.widget.AppCompatAutoCompleteTextView
+                        android:id="@+id/txtUomFormalName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/FormalNameHint"
+                        android:imeActionLabel="@string/ime_save_label"
+                        android:imeOptions="actionDone"
+                        android:foregroundGravity="center" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dip"
+            android:elevation="25dip"
+            android:background="@android:color/transparent"
+            app:cardCornerRadius="10dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab_UomSave"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/fab_margin"
+                    app:fabSize="normal"
+                    android:onClick="UomSave_Click"
+                    android:tint="@android:color/white"
+                    app:srcCompat="@drawable/ic_save_sale" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab_UomReset"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/fab_margin"
+                    app:fabSize="normal"
+                    android:onClick="UomReset_Click"
+                    android:tint="@android:color/white"
+                    app:srcCompat="@drawable/ic_reset" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab_UomDelete"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/fab_margin"
+                    app:fabSize="normal"
+                    android:onClick="UomDelete_Click"
+                    android:tint="@android:color/white"
+                    app:srcCompat="@drawable/ic_delete" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab_UomSearch"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/fab_margin"
+                    app:fabSize="normal"
+                    android:onClick="UomSearch_Click"
+                    android:tint="@android:color/white"
+                    app:srcCompat="@drawable/ic_search" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

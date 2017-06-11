@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/nav_menu_head_master">
+            <menu>
+                <item
+                    android:id="@+id/nav_uom"
+                    android:icon="@drawable/ic_product_menu"
+                    android:title="@string/nav_menu_uom" />
+                <item
+                    android:id="@+id/nav_stock_group"
+                    android:icon="@drawable/ic_purchase_menu"
+                    android:title="@string/nav_menu_stock_group" />
+                <item
+                    android:id="@+id/nav_employee"
+                    android:icon="@drawable/ic_employee_menu"
+                    android:title="@string/nav_menu_manage_employee" />
+                <item
+                    android:id="@+id/nav_accounts"
+                    android:icon="@drawable/ic_account_menu"
+                    android:title="@string/nav_menu_accounts" />
+                <item
+                    android:id="@+id/nav_companySettings"
+                    android:icon="@drawable/ic_account_menu"
+                    android:title="@string/nav_menu_companySettings" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="@string/nav_menu_head_transaction">
+        <menu>
+            <item
+                android:id="@+id/nav_sales"
+                android:icon="@drawable/ic_sales_menu"
+                android:title="@string/nav_menu_sales" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_menu_head_report">
+        <menu>
+            <item
+                android:id="@+id/nav_reports"
+                android:icon="@drawable/ic_report_menu"
+                android:title="@string/nav_menu_report" />
+        </menu>
+
+    </item>
+
+</menu>

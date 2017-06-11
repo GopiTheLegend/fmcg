@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frm_Customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/cardview_light_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.legend.gopiking.fmcg.Frm.Master.Customer"
+    tools:showIn="@layout/activity_customer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dip"
+            android:elevation="25dip"
+            android:background="@android:color/transparent"
+            app:cardCornerRadius="10dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtCustomerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/customerNameHint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtAddress1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/Address1Hint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtAddress2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/Address1Hint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/CityHint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/phone_number"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtMailId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/email"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtGst"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/GstHint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtOpenningBalance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/OpenningBalanceHint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/cmbAccountType"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip"
+                    android:foregroundGravity="center"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtCustomerCreditAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/CustomerCreditAmountHint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/txtCustomerCreditLimit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="25dip"
+                        android:hint="@string/CustomerCreditLimitHint"
+                        android:foregroundGravity="center"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/cmbCustomerCreditLimitType"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dip"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dip"
+            android:elevation="25dip"
+            android:background="@android:color/transparent"
+            app:cardCornerRadius="30dip">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab_CustomerSave"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dip"
+                        app:fabSize="normal"
+                        android:onClick="CustomerSave_Click"
+                        android:tint="@android:color/white"
+                        app:srcCompat="@drawable/ic_save_sale" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab_CustomerReset"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dip"
+                        app:fabSize="normal"
+                        android:onClick="CustomerReset_Click"
+                        android:tint="@android:color/white"
+                        app:srcCompat="@drawable/ic_reset" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab_CustomerDelete"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dip"
+                        app:fabSize="normal"
+                        android:onClick="CustomerDelete_Click"
+                        android:tint="@android:color/white"
+                        app:srcCompat="@drawable/ic_delete" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab_CustomerSearch"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dip"
+                        app:fabSize="normal"
+                        android:onClick="CustomerSearch_Click"
+                        android:tint="@android:color/white"
+                        app:srcCompat="@drawable/ic_search" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

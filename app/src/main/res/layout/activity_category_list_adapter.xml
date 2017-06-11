@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    android:gravity="center"
+    android:layout_marginTop="10dip"
+    android:layout_height="55dip">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/lblListItem"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:textColor="#00f"
+        android:textSize="17dip"
+        android:text="Expand Me"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"/>
+
+</LinearLayout>
